@@ -265,7 +265,7 @@ export const blogPosts = [
     author: 'FikrNa Investigative Team',
     publishDate: '2026-01-06',
     readTime: '16 min read',
-    featuredImage: '/blog/grok-ai-deepfake-scandal.jpg',
+    featuredImage: '/blog/grok-ai-deepfake-scandal.jpg?v=2',
     imageAlt: 'Comparison showing uploaded photo versus AI-generated deepfake with warning: No one is safe',
     metaDescription: 'Investigative report on the 2026 Grok AI deepfake scandal. Learn how ordinary social media photos are being weaponized, what governments are doing, and how to protect yourself from AI image manipulation.',
     keywords: 'Grok AI scandal, deepfake detection, Julie Yukari, social media privacy, AI image manipulation, MeitY warning, protect photos from AI, Nightshade tool, Glazing protection, deepfake prevention 2026',
