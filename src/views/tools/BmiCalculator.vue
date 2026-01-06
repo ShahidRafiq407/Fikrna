@@ -625,7 +625,7 @@ import {
   injectStructuredData 
 } from '@/utils/structuredData';
 import Icon from '@/components/Icon.vue';
-import Breadcrumbs from '@/components/Breadcrumbs.vue';
+import Breadcrumb from '@/components/Breadcrumb.vue';
 
 // SEO Configuration with enhanced AI/LLM optimization
 const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://fikrna.com';
