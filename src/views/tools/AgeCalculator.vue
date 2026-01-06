@@ -582,7 +582,7 @@ import {
 import Icon from '@/components/Icon.vue';
 import Breadcrumb from '@/components/Breadcrumb.vue';
 import RelatedTools from '@/components/RelatedTools.vue';
-import AOS from 'aos';
+
 
 // SEO Configuration with enhanced AI/LLM optimization
 const baseUrl = typeof window !== 'undefined' ? window.location.origin : 'https://fikrna.com';
