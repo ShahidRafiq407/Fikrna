@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <!-- Gradient for the brain/idea symbol -->
+    <linearGradient id="brainGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Gold accent gradient -->
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#fbbf24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f59e0b;stop-opacity:1" />
+    </linearGradient>
+    
+    <!-- Glow effect -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background circle with subtle gradient -->
+  <circle cx="50" cy="50" r="48" fill="url(#brainGradient)" opacity="0.15"/>
+  <circle cx="50" cy="50" r="45" fill="#0f172a" stroke="url(#brainGradient)" stroke-width="1.5" opacity="0.8"/>
+  
+  <!-- Main brain/neural network symbol -->
+  <g transform="translate(50, 50)">
+    <!-- Central node -->
+    <circle cx="0" cy="0" r="8" fill="url(#brainGradient)" filter="url(#glow)"/>
+    
+    <!-- Neural network connections -->
+    <path d="M -20 -15 Q -10 -8 0 0 Q 10 -8 20 -15" stroke="url(#brainGradient)" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M -18 12 Q -9 5 0 0 Q 9 5 18 12" stroke="url(#brainGradient)" stroke-width="2" fill="none" opacity="0.6"/>
+    <path d="M -15 -18 L -8 -10" stroke="url(#brainGradient)" stroke-width="2" opacity="0.5"/>
+    <path d="M 15 -18 L 8 -10" stroke="url(#brainGradient)" stroke-width="2" opacity="0.5"/>
+    <path d="M -15 18 L -8 10" stroke="url(#brainGradient)" stroke-width="2" opacity="0.5"/>
+    <path d="M 15 18 L 8 10" stroke="url(#brainGradient)" stroke-width="2" opacity="0.5"/>
+    
+    <!-- Outer nodes -->
+    <circle cx="-20" cy="-15" r="4" fill="url(#goldGradient)" opacity="0.8"/>
+    <circle cx="20" cy="-15" r="4" fill="url(#goldGradient)" opacity="0.8"/>
+    <circle cx="-18" cy="12" r="4" fill="url(#goldGradient)" opacity="0.8"/>
+    <circle cx="18" cy="12" r="4" fill="url(#goldGradient)" opacity="0.8"/>
+    <circle cx="-15" cy="-18" r="3" fill="#10b981" opacity="0.7"/>
+    <circle cx="15" cy="-18" r="3" fill="#10b981" opacity="0.7"/>
+    <circle cx="-15" cy="18" r="3" fill="#10b981" opacity="0.7"/>
+    <circle cx="15" cy="18" r="3" fill="#10b981" opacity="0.7"/>
+    
+    <!-- Sparkle/light effect -->
+    <circle cx="-12" cy="-22" r="1.5" fill="#fbbf24" opacity="0.9">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="12" cy="-22" r="1.5" fill="#fbbf24" opacity="0.9">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="-25" r="1" fill="#fbbf24" opacity="0.8">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>
