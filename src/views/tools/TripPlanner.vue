@@ -763,7 +763,7 @@ import {
   generateSchemaGraph,
   injectStructuredData 
 } from '@/utils/structuredData';
-import { onMounted } from 'vue';
+
 import AOS from 'aos';
 
 // SEO Configuration with enhanced AI/LLM optimization
