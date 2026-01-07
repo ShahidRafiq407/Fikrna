@@ -1,6 +1,6 @@
 // Service Worker for FikrNa - optimized for updates and performance
-const CACHE_NAME = 'fikrna-v2';
-const RUNTIME_CACHE = 'fikrna-runtime-v2';
+const CACHE_NAME = 'fikrna-v3';
+const RUNTIME_CACHE = 'fikrna-runtime-v3';
 
 // Assets to cache on install (critical for offline start)
 const PRECACHE_ASSETS = [
