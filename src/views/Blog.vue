@@ -623,16 +623,18 @@ function generateBlogPageSchema(baseUrl) {
 
 .post-detail-image {
   width: 100%;
-  height: 400px;
+  height: auto;
   overflow: hidden;
   background: linear-gradient(135deg, rgba(16, 185, 129, 0.1) 0%, rgba(20, 184, 166, 0.05) 100%);
+  border-radius: 12px;
 }
 
 .post-detail-featured-image {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  object-fit: contain;
   display: block;
+  max-height: none;
 }
 
 .post-image-placeholder-large {
@@ -765,7 +767,7 @@ function generateBlogPageSchema(baseUrl) {
   }
 
   .post-detail-image {
-    height: 250px;
+    height: auto;
   }
 
   .related-tools-grid {
