@@ -31,7 +31,7 @@ export const blogPosts = [
 
       <h2>1. SwitchBot Onero H1 – The Robot That Actually Folds Your Laundry</h2>
 
-      <img src="/blog/switchbot-onero-h1-laundry-robot.png" alt="SwitchBot Onero H1 humanoid robot folding laundry and loading dishwasher in modern kitchen" style="width: 100%; height: auto; border-radius: 12px; margin: 20px 0;" />
+      <img src="/blog/switchbot-onero-h1-laundry-robot.png" alt="SwitchBot Onero H1 humanoid robot folding laundry and loading dishwasher in modern kitchen" style="width: 80%; max-width: 700px; height: auto; border-radius: 12px; margin: 20px auto; display: block;" />
 
       <p>Let me start with the one that made the entire convention floor lose its mind.</p>
 
@@ -62,7 +62,7 @@ export const blogPosts = [
 
       <h2>2. Samsung Vision AI TV – The TV That Watches You Back</h2>
 
-      <img src="/blog/samsung-vision-ai-tv-2026.png" alt="Samsung Vision AI TV with camera detecting baby crying and adjusting room lighting automatically" style="width: 100%; height: auto; border-radius: 12px; margin: 20px 0;" />
+      <img src="/blog/samsung-vision-ai-tv-2026.png" alt="Samsung Vision AI TV with camera detecting baby crying and adjusting room lighting automatically" style="width: 80%; max-width: 700px; height: auto; border-radius: 12px; margin: 20px auto; display: block;" />
 
       <p>Samsung just made the smartest—and creepiest—TV I've ever seen.</p>
 
@@ -91,7 +91,7 @@ export const blogPosts = [
 
       <h2>3. LG Smart Home Agent – The Two-Legged Robot Butler</h2>
 
-      <img src="/blog/lg-smart-home-agent-bipedal-robot.png" alt="LG two-legged Smart Home Agent robot walking through house adjusting thermostat and answering questions" style="width: 100%; height: auto; border-radius: 12px; margin: 20px 0;" />
+      <img src="/blog/lg-smart-home-agent-bipedal-robot.png" alt="LG two-legged Smart Home Agent robot walking through house adjusting thermostat and answering questions" style="width: 80%; max-width: 700px; height: auto; border-radius: 12px; margin: 20px auto; display: block;" />
 
       <p>LG looked at Alexa and Google Home and said, "What if it could <em>walk</em>?"</p>
 
@@ -120,7 +120,7 @@ export const blogPosts = [
 
       <h2>4. Nvidia's "Physical AI" Vision – Robots Are the New Smartphones</h2>
 
-      <img src="/blog/nvidia-physical-ai-jensen-huang-keynote.png" alt="Nvidia CEO Jensen Huang presenting Physical AI keynote with humanoid robots on stage at CES 2026" style="width: 100%; height: auto; border-radius: 12px; margin: 20px 0;" />
+      <img src="/blog/nvidia-physical-ai-jensen-huang-keynote.png" alt="Nvidia CEO Jensen Huang presenting Physical AI keynote with humanoid robots on stage at CES 2026" style="width: 80%; max-width: 700px; height: auto; border-radius: 12px; margin: 20px auto; display: block;" />
 
       <p>Nvidia CEO Jensen Huang opened CES 2026 with a keynote that will be quoted for years: <strong>"AI is done living in screens. It's moving into bodies."</strong></p>
 
@@ -147,7 +147,7 @@ export const blogPosts = [
 
       <h2>5. Amazon Astro Pro – The Home Security Robot You Can Actually Buy</h2>
 
-      <img src="/blog/amazon-astro-pro-security-robot.png" alt="Amazon Astro Pro home security robot patrolling house at night with camera and sensors" style="width: 100%; height: auto; border-radius: 12px; margin: 20px 0;" />
+      <img src="/blog/amazon-astro-pro-security-robot.png" alt="Amazon Astro Pro home security robot patrolling house at night with camera and sensors" style="width: 80%; max-width: 700px; height: auto; border-radius: 12px; margin: 20px auto; display: block;" />
 
       <p>Okay, this one isn't technically "new"—Amazon's been working on Astro since 2021. But the <strong>Astro Pro (2nd Gen)</strong> announced at CES 2026 is the first version that actually feels ready for normal people.</p>
 
