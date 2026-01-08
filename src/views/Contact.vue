@@ -174,7 +174,7 @@ onMounted(() => {
     baseUrl,
     url: currentUrl,
     name: 'Contact Us - FikrNa | Get in Touch',
-    description: 'Contact FikrNa for support, feedback, or inquiries. Email, WhatsApp, or visit us in Faisalabad, Pakistan.',
+  description: 'Contact FikrNa for support, feedback, or inquiries. Email, WhatsApp, or visit us in Faisalabad, Pakistan.',
     about: [
       { '@type': 'Thing', name: 'Contact information' },
       { '@type': 'Thing', name: 'Customer support' }

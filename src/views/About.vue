@@ -171,7 +171,7 @@ onMounted(() => {
     baseUrl,
     url: currentUrl,
     name: 'About FikrNa - The Privacy-First AI Platform',
-    description: 'FikrNa brings powerful, free AI tools to your browser without compromising privacy. No servers, no tracking. Built in Pakistan for the world.',
+  description: 'FikrNa brings powerful, free AI tools to your browser without compromising privacy. No servers, no tracking. Built in Pakistan for the world.',
     about: [
       { '@type': 'Thing', name: 'Privacy-first technology' },
       { '@type': 'Thing', name: 'Free online tools' },

@@ -141,7 +141,7 @@
 import { ref, computed, onMounted, watch } from 'vue';
 import { useRoute, useRouter } from 'vue-router';
 import { useSEO } from '@/composables/useSEO';
-import { getAllPosts, getPostBySlug } from '@/data/blogPosts';
+import { getAllPosts, getPostBySlug } from '@/data/blog';
 import { 
   generateArticleSchema,
   generateWebPageSchema,

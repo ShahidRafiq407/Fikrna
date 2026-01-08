@@ -613,7 +613,7 @@ import { useRoute, useRouter } from 'vue-router';
 import ToolCard from '@/components/ToolCard.vue';
 import Icon from '@/components/Icon.vue';
 import { useSEO } from '@/composables/useSEO';
-import { getLatestPosts } from '@/data/blogPosts';
+import { getLatestPosts } from '@/data/blog';
 import { 
   generateOrganizationSchema, 
   generateWebSiteSchema, 
