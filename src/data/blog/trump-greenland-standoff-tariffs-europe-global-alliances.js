@@ -5,8 +5,8 @@
 export default {
   id: '6',
   slug: 'trump-greenland-standoff-tariffs-europe-global-alliances',
-  title: 'Trump's Greenland Standoff: Tariffs Threatened on Europe – What It Means for Global Alliances',
-  excerpt: 'President Trump's renewed interest in acquiring Greenland has sparked a major diplomatic crisis, with tariff threats against Europe escalating tensions across the Atlantic.',
+  title: 'Trump\'s Greenland Standoff: Tariffs Threatened on Europe - What It Means for Global Alliances',
+  excerpt: 'President Trump\'s renewed interest in acquiring Greenland has sparked a major diplomatic crisis, with tariff threats against Europe escalating tensions across the Atlantic.',
   category: 'Tech & Innovation',
   author: 'FikrNa Editorial Team',
   publishDate: '2026-01-20',
