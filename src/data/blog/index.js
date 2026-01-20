@@ -16,16 +16,17 @@ import grokAiDeepfake from './grok-ai-deepfake-scandal.js';
 import calorieTrackingGuide from './calorie-tracking-guide.js';
 import salaryTaxGuide from './salary-tax-guide.js';
 import tripPlanningGuide from './trip-planning-guide.js';
-import trumpgreenlandstandoff from './trump-greenland-standoff.js';
+import trumpgreenlandstandoff from './trump-greenland-standoff-tariffs-europe-global-alliances.js';
 
 // Export all posts as array (newest first)
 export const blogPosts = [
+  trumpgreenlandstandoff, // ID: 6 - Jan 20, 2026
   cesAiRobots2026,     // ID: 5 - Jan 10, 2026
   grokAiDeepfake,      // ID: 4 - Jan 6, 2026
   calorieTrackingGuide, // ID: 1 - Jan 15, 2025
   salaryTaxGuide,      // ID: 2 - Jan 10, 2025
   tripPlanningGuide,    // ID: 3 - Jan 5, 2025
-  trumpgreenlandstandoff, // ID: 6 - Jan 20, 2026
+  
 ];
 
 // Helper functions (keep same as before)
